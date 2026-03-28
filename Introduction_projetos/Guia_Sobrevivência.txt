@@ -1,0 +1,50 @@
+1. Entrada e Saída (O básico)
+
+print("Olá, ADS!")         # Exibe mensagem na tela
+nome = input("Seu nome: ") # Lê o que o usuário digita (sempre vem como Texto/String)
+
+---------------------------------------------------------------------------------------------------------------------------
+2. Tipos de Dados (Essencial para o SQL depois)
+
+idade = 20                 # int (Inteiro)
+altura = 1.75              # float (Decimal - use PONTO, não vírgula)
+nome = "João"              # str (String/Texto)
+estudante = True           # bool (Booleano - True ou False com T/F maiúsculo)
+
+---------------------------------------------------------------------------------------------------------------------------
+3. Condicionais (Tomada de decisão)
+
+if idade >= 18:
+    print("Maior de idade")
+elif idade == 17:
+    print("Quase lá!")
+else:
+    print("Menor de idade")
+
+---------------------------------------------------------------------------------------------------------------------------
+4. Laços de Repetição (Loops)
+
+# Para repetir algo 5 vezes
+for i in range(5):
+    print(f"Repetição número {i}")
+
+# Enquanto uma condição for verdadeira
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+
+---------------------------------------------------------------------------------------------------------------------------
+5. Listas (Onde você guarda vários dados)
+
+frutas = ["Maçã", "Banana", "Uva"]
+frutas.append("Laranja")   # Adiciona no final
+print(frutas[0])           # Exibe o primeiro item (índice começa em 0)
+
+---------------------------------------------------------------------------------------------------------------------------
+6. Funções (Para organizar seu código)
+
+def saudacao(nome):
+    return f"Bem-vindo ao Python, {nome}!"
+
+print(saudacao("Estudante"))

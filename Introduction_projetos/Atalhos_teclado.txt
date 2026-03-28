@@ -1,0 +1,20 @@
+# Os Essenciais (Produtividade):
+
+Alt + Z: Ajusta o texto à tela (quebra de linha automática). Útil para ler códigos longos sem rolar para o lado.
+Ctrl + /: Comenta ou retira o comentário de uma linha (ou várias selecionadas). Ótimo para testar partes do código.
+Alt + Seta (Cima/Baixo): Move a linha inteira para cima ou para baixo. Muito mais rápido que copiar e colar.
+Shift + Alt + Seta (Cima/Baixo): Duplica a linha atual. Perfeito para quando você precisa de vários print() ou variáveis parecidas.
+
+# Específicos para Python
+F5: Inicia o Debug (executa o código passo a passo para achar erros).
+Ctrl + F5: Roda o código direto, sem frescura.
+Ctrl + Espaço: Abre o IntelliSense (as sugestões de comandos do Python). Se você esquecer como escreve algo, ele te ajuda.
+
+# Navegação e Terminal
+Ctrl + ' (Crase): Abre e fecha o terminal na parte de baixo. Você vai usar isso o tempo todo para ver o resultado do seu código.
+Ctrl + B: Esconde/mostra a barra lateral (Explorer). Dá mais espaço para você ver o código.
+Ctrl + P: Busca rápida de arquivos. Se seu projeto crescer, digite o nome do arquivo aqui e ele abre na hora.
+
+# Extra
+Shift + Alt + F: Formata todo o seu código automaticamente (arruma os espaços e a indentação). 
+                 Se o Python der erro de indentação, esse atalho costuma resolver 90% dos casos!
